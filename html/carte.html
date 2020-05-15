@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carte</title>
+    <link rel="stylesheet" type="text/css" href="../style/style.css">
+</head>
+
+<body>
+    <header>
+
+        <div class="header">
+            <img id="imageHaut3" src="../image/haut_gauche.png" alt="Dessin d'une bouteille personnifiée faisant du vélo">
+            <div class="couronne">
+                <img class="imageHaut1" src="../image/haut_milieu_haut.png" alt="Motif ornemental">
+                <h1 id="titreHaut1">Le monde de l'alcool</h1>
+                <img class="imageHaut1" src="../image/haut_milieu_bas.png" alt="Motif ornemental">
+            </div>
+            <img id="imageHaut4" src="../image/haut_droit.png" alt="Dessin d'une bouteille personnifiée qui marche">
+        </div>
+
+    </header>
+
+    <div class="menu" id="noSticky">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Accueil</a></li>
+                <li class="bord"><a href="carte.html">Carte</a></li>
+                <li class="fleche bord"><a href="#">Les lois</a>
+                    <ul>
+                        <li><a href="conduite.html">La conduite</a></li>
+                        <li><a href="vente.html">Les ventes</a></li>
+                        <li><a href="ivressePublique.html">L'ivresse publique</a></li>
+                    </ul>
+                </li>
+                <li class="fleche bord"><a href="#">La consommation</a>
+                    <ul>
+                        <li><a href="commercialisation.html">La commercialisation</a></li>
+                        <li><a href="produitFestif.html">Un produit festif</a></li>
+                        <li><a href="lesBars.html">Les bars</a></li>
+                        <li><a href="consoReguliere.html">Boire régulièrement</a></li>
+                        <li><a href="unEffetDeMode.html">Un effet de mode</a></li>
+                        <li><a href="unMoyenDeFuire.html">Un moyen de fuire</a></li>
+                    </ul>
+                </li>
+                <li class="fleche bord"><a href="#">La santé</a>
+                    <ul>
+                        <li><a href="organisme.html">L'organisme</a></li>
+                        <li><a href="alcoolEtFertilite.html">La fertilité</a></li>
+                        <li><a href="laGrossesse.html">La grossesse</a></li>
+                        <li><a href="addiction.html">L'addiction</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <h2>Carte interactive</h2>
+    <img src="../image/vraiecarte.jpg" id='fondCarte' width="900" height="732" usemap="#Map">
+    <map id="Map" name="Map">
+            <area id="sd" shape="poly" title="Suède" coords="594,32,598,37,608,41,613,45,615,48,616,55,618,55,622,64,623,74,627,79,619,81,614,86,610,93,616,99,615,109,609,122,603,127,598,134,592,143,592,153,592,163,598,175,609,182,611,189,608,198,603,206,595,210,600,214,608,217,615,215,619,220,618,228,614,236,610,241,606,233,603,224,595,222,596,230,600,239,598,247,594,253,587,258,582,258,579,262,576,268,565,270,562,263,553,253,558,249,544,228,539,208,548,174,542,132,546,122,555,118,553,107,558,99,555,83,563,76,567,66,565,56,582,41" href="#sd1" alt="Suède">
+            <area id="fld" shape="poly" title="Finlande" coords="595,31,596,27,603,29,604,33,609,34,614,29,620,33,614,29,620,31,623,25,618,19,624,12,630,6,633,7,643,8,641,14,643,21,643,29,649,34,656,36,657,43,656,50,659,57,665,62,670,68,668,78,675,84,680,91,681,101,689,107,695,108,697,117,683,158,675,161,665,168,657,174,647,182,638,178,613,182,622,156,615,142,620,125,624,116,629,106,634,96,635,86,627,78,623,73,622,65,618,55,615,55,618,49" href="#fld1" alt="Finlande">
+            <area id="est" shape="poly" title="Estonie" coords="644,193,653,188,661,180,668,176,678,178,686,175,689,176,686,185,689,189,690,194,694,200,694,208,689,209,685,212,678,206,671,206,666,211,654,212,644,208,639,203" href="#est1" alt="Estonie">
+            <area id="let" shape="poly" title="Lettonie" coords="700,217,704,223,706,226,705,236,694,243,689,239,687,235,681,235,676,234,670,236,665,235,659,238,649,240,642,247,639,239,639,233,643,226,642,221,649,216,654,221,656,220,659,225,665,223,665,211,671,206,677,206,685,211,689,209,694,207" href="#let1" alt="Lettonie">
+            <area id="lit" shape="poly" title="Lituanie" coords="694,243,687,237,681,237,676,235,670,238,665,237,658,240,649,242,642,247,646,259,654,262,661,262,665,266,665,273,672,275,673,278,676,275,678,273,683,276,690,269,694,267,694,260,694,258,696,248" href="#lit1" alt="Lituanie">
+            <area id="pol" shape="poly" title="Pologne" coords="663,272,672,275,671,277,675,282,680,296,676,303,681,306,681,312,686,322,690,331,690,334,680,352,681,358,681,362,678,362,670,357,654,361,653,363,644,358,639,362,632,355,627,356,623,349,614,349,613,352,606,351,608,346,599,346,594,339,592,333,589,331,585,318,587,315,579,310,582,306,579,299,584,298,586,291,598,286,605,280,615,274,623,272,624,276,633,279,634,276,646,275,653,275" href="#pol1" alt="Pologne">
+            <area id="slo" shape="poly" title="Slovaquie" coords="681,362,677,362,670,357,654,360,653,364,644,359,639,362,637,360,632,365,630,370,619,377,618,383,620,389,625,388,630,393,634,391,637,391,647,384,649,381,653,383,659,375,673,372,675,374" href="#slo1" alt="Slovaquie">
+            <area id="tch" shape="poly" title="République Tchèque" coords="589,346,591,343,596,346,605,346,604,351,609,353,614,352,620,353,623,356,629,356,634,358,629,366,628,368,618,377,614,376,608,377,598,376,592,381,584,381,575,376,572,372,567,367,563,357,572,349,580,348,584,344" href="#tch1" alt="République Tchèque">
+            <area id="hng" shape="poly" title="Hongrie" coords="623,395,623,392,629,395,634,394,638,392,644,387,649,387,651,385,656,385,659,376,665,376,668,373,671,376,673,375,682,377,685,381,676,395,673,410,665,413,656,415,644,421,642,425,627,423,618,416,613,410,616,405,614,397" href="#hng1" alt="Hongrie">
+            <area id="rou" shape="poly" title="Roumanie" coords="677,393,673,410,666,414,667,420,673,421,673,426,681,429,683,435,689,436,692,434,697,435,697,440,702,445,718,446,723,444,735,444,738,436,750,429,766,434,769,431,769,420,769,411,774,415,777,410,776,403,762,409,754,401,752,383,744,379,733,363,726,367,725,373,716,373,710,381,705,378,692,379,686,382" href="#rou1" alt="Roumanie">
+            <area id="bul" shape="poly" title="Bulgarie" coords="769,434,771,438,767,443,767,453,761,458,769,459,771,465,761,464,757,469,756,469,752,473,753,474,750,482,744,486,734,486,729,482,724,486,719,487,714,488,709,479,704,476,701,470,706,459,696,450,699,445,715,448,723,445,734,445,740,439,750,430" href="#bul1" alt="Bulgarie">
+            <area id="aut" shape="poly" title="Autriche" coords="582,383,589,385,598,380,609,380,613,378,616,380,616,387,620,391,620,393,613,395,613,405,609,412,601,415,594,419,567,417,566,412,555,412,549,417,546,414,538,416,534,412,538,407,548,405,555,406,566,401,574,401,572,392" href="#aut1" alt="Autriche">
+            <area id="sl" shape="poly" title="Slovénie" coords="613,412,615,416,610,421,609,427,604,436,595,432,591,437,585,436,589,433,582,423,584,421,589,420,596,421,600,416" href="#sl1" alt="Slovénie">
+            <area id="crt" shape="poly" title="Croatie" coords="618,418,623,423,639,426,647,422,647,430,653,433,653,439,639,436,635,439,627,436,619,439,614,437,611,444,618,454,628,464,634,468,649,478,651,480,641,479,625,473,605,461,589,447,584,439,592,439,595,435,604,436,611,427,613,423" href="#crt1" alt="Croatie">
+            <area id="gre" shape="poly" title="Grèce" coords="714,490,729,484,737,488,745,488,753,484,752,492,764,517,776,540,796,557,797,565,787,578,776,590,753,594,738,593,706,570,690,557,673,526,680,514,686,504,696,503,700,498,704,497,700,498,696,503" href="#gre1" alt="Grèce">
+            <area id="itl" shape="poly" title="Italie" coords="555,415,565,414,566,417,581,420,579,425,582,430,574,435,570,436,567,439,572,448,570,450,568,453,572,459,585,470,592,483,606,495,622,495,620,501,628,506,646,511,654,517,656,526,653,526,648,521,643,517,641,517,635,516,633,521,632,530,641,536,642,543,634,546,634,553,628,562,618,580,610,583,604,578,586,572,580,570,522,550,523,530,519,519,532,512,562,496,548,481,542,464,537,462,527,457,519,464,512,469,512,459,504,460,503,457,504,453,501,445,507,440,504,435,513,434,518,430,517,424,524,422,527,429,532,421,539,421,543,416,548,419" href="#itl1" alt="Italie">
+            <area id="frc" shape="poly" title="France" coords="442,358,446,347,455,346,458,351,461,351,464,356,470,357,472,365,477,362,481,367,488,372,494,371,499,377,517,381,509,387,510,404,508,406,503,409,494,420,491,429,498,425,500,425,503,433,499,439,501,441,498,447,499,453,501,461,508,462,510,468,514,481,533,481,539,501,529,511,479,475,476,472,474,475,465,471,460,477,456,476,451,482,452,487,450,489,441,490,432,485,423,481,417,484,400,475,391,468,403,420,394,410,395,401,386,395,371,386,370,380,373,376,389,372,394,379,405,377,403,359,412,361,413,366,423,365,431,359" href="#frc1" alt="France">
+            <area id="blg" shape="poly" title="Belgique" coords="455,344,461,340,472,341,479,335,486,340,489,345,495,351,494,359,489,362,490,369,488,369,477,359,472,360,471,354,467,354" href="#blg1" alt="Belgique">
+            <area id="lxb" shape="poly" title="Luxembourg" coords="491,362,497,359,496,363,500,366,496,372,490,365" href="#lxb1" alt="Luxembourg">
+            <area id="all" shape="poly" title="Allemagne" coords="494,332,495,339,493,346,498,352,499,358,498,362,501,366,499,374,501,376,504,376,518,380,513,390,512,404,522,399,534,403,539,403,542,405,547,403,555,404,563,400,570,399,568,391,579,382,565,372,560,360,570,348,579,346,585,341,587,342,587,333,581,318,579,305,577,299,580,293,570,281,547,296,544,294,544,289,534,285,533,284,523,281,524,286,523,289,524,295,531,300,522,299,507,303,505,312,503,317,500,328" href="#all1" alt="Allemagne">
+            <area id="pyb" shape="poly" title="Pays-Bas" coords="489,309,491,304,498,305,504,309,501,318,498,325,493,333,493,339,491,345,481,334,474,335,472,326,481,312,484,321,490,318" href="#pyb1" alt="Pays-Bas">
+            <area id="dmk" shape="poly" title="Danemark" coords="522,277,518,268,515,268,514,252,518,242,527,240,531,237,536,234,536,245,539,252,557,258,557,271,582,268,586,272,553,280,547,283,529,280" href="#dmk1" alt="Danemark">
+            <area id="esp" shape="poly" title="Espagne" coords="319,450,324,455,345,456,356,462,363,462,371,463,378,467,382,464,387,468,392,469,400,475,418,484,425,482,439,491,454,488,457,491,455,501,468,531,453,542,428,548,409,551,400,555,397,566,387,566,375,578,343,574,339,578,333,577,326,584,316,577,316,569,309,560,301,556,309,545,307,535,311,528,308,519,316,518,317,509,322,506,322,498,330,493,324,484,309,483,306,476,298,478,300,470,297,457,309,457" href="#esp1" alt="Espagne">
+            <area id="pgl" shape="poly" title="Portugal" coords="298,480,303,479,307,483,322,485,326,492,319,497,319,504,314,508,313,514,306,517,309,527,304,533,307,543,298,556,299,560,294,564,287,559,282,559,280,555,287,549,287,537,279,535,285,528,276,528,282,521,288,517,293,506,297,497" href="#pgl1" alt="Portugal">
+            <area id="irl" shape="poly" title="Irlande" coords="347,264,351,261,360,257,364,262,355,267,352,273,356,278,365,278,367,285,367,287,365,296,367,300,362,306,360,310,352,310,343,315,332,316,324,318,323,309,331,300,338,299,332,293,337,288,328,285,335,277,331,273,337,269,343,272" href="#irl1" alt="Irlande">
+            <area id="mlt" shape="poly" title="Malte" coords="603,592,610,589,615,598,608,602" href="#mlt1" alt="Malte">
+            <area id="chp" shape="poly" title="Chypre" coords="844,580,857,576,867,576,882,572,876,580,871,587,857,591,848,587" href="#chp1" alt="Chypre">
+            <area id="run" shape="poly" title="Réunion" coords="38,649,48,649,58,654,65,654,70,660,70,669,74,677,81,683,88,688,87,696,82,703,84,711,81,718,60,720,39,714,31,708,24,703,17,693,16,684,7,675,14,666,19,664,21,658,27,654" href="#run1" alt="Réunion">
+            <area id="mtn" shape="poly" title="Martinique" coords="14,417,21,417,29,417,34,423,44,427,51,436,64,435,64,441,60,446,59,450,63,457,64,462,73,471,74,480,77,486,78,496,73,508,64,509,60,503,64,498,55,498,43,496,33,499,26,485,34,478,43,478,41,472,29,470,17,462,11,447,12,442,2,429,8,422" href="#mtn1" alt="Martinique">
+            <area id="gyn" shape="poly" title="Guyane Française" coords="120,640,127,645,141,649,148,654,153,657,159,665,165,668,168,675,160,685,155,693,154,699,150,709,142,717,130,721,124,713,117,716,105,712,110,703,110,693,117,686,108,675,105,657,113,645" href="#gyn1" alt="Guyane Française">
+            <area id="gdl" shape="poly" title="Guadeloupe" coords="189,660,203,666,211,671,221,662,215,653,221,643,226,640,231,640,235,647,240,653,239,660,242,666,244,664,254,667,259,673,273,673,280,676,274,702,259,725,241,727,232,726,206,731,197,726,189,712,184,705,183,682,180,669" href="#gdl1" alt="Guadeloupe">
+            <area id="myt" shape="poly" title="Mayotte" coords="14,518,34,523,40,537,43,545,49,547,54,542,60,547,72,552,87,555,93,562,87,570,63,585,67,593,62,602,54,605,57,616,59,623,44,627,27,614,22,597,33,595,34,603,44,607,43,595,30,583,39,578,33,578,31,567,33,557,15,552,16,543,7,524,10,518" href="#myt1" alt="Mayotte">
+            
+            <div id="sd1">
+                <h3>La Suède</h3>
+                <p>Le Glögg : est un vin chaud épicé, traditionnellement dégusté lors des fêtes hivernales.</p>
+            </div>
+
+            <div id="fld1">
+                <h3>La Finlande</h3>
+                <p>Le Salmiakki Koskenkorva : est un mélange de vodka et de sirop de réglisse, c'est une boisson très sucré dont le goût de l'acool est bien dissimulé malgré son titrage allant jusqu'à 40°.</p>
+            </div>
+
+            <div id="est1">
+                <h3>L'Estonie</h3>
+                <p>La Vana Tallin : est une liqueur sucrée préparée à base de rhum et d'épices.</p>
+            </div>
+
+            <div id="let1">
+                <h3>La Lettonie</h3>
+                <p>Le Baume noir de Riga : Boisson traditionnelle letton, c'est mélange de vodka pure et d'ingrédients naturels qui peut-être consommée seule ou incorporée à d'autres boissons telles que le thé ou le soda.</p>
+            </div>
+
+            <div id="lit1">
+                <h3>La Lituanie</h3>
+                <p>La Gira : cette bière légèrement alcoolisée est fabriquée par la fermentation naturelle de pain et est souvent parfumée avec des fruits ou de la menthe.</p>
+            </div>
+
+            <div id="pol1">
+                <h3>La Pologne</h3>
+                <p>La Vodka : est un alcool spiritueux souvent créer à base de pommes de terre, il peut être produit à partir d'autres matières agricoles et est très utilisé pour fabriquer d'autres boissons alcoolisées.</p>
+            </div>
+
+            <div id="slo1">
+                <h3>La Slovaquie</h3>
+                <p>Le Borovicka : est une eau-de-vie avec un goût apparenté au gin, elle est obtenue par la distillation d'alcool de grain infusé de baies de genévrier.</p>
+            </div>
+
+            <div id="tch1">
+                <h3>La République Tchèque</h3>
+                <p>La Slivovice : est une boisson produite par trois étapes de fermentation de prunes mûres.</p>
+            </div>
+
+            <div id="hng1">
+                <h3>L'Hongrie</h3>
+                <p>La Palinka : est une boisson alcoolisée considérée comme la boisson nationale hongroise, cette eau-de-vie peut être faite à partir de plein de fruits différents.</p>
+            </div>
+
+            <div id="rou1">
+                <h3>La Roumanie</h3>
+                <p>La Tuica : est une eau-de-vie obtenue par la distillation de prunes.</p>
+            </div>
+
+            <div id="bul1">
+                <h3>La Bulgarie</h3>
+                <p>La Rakia : est une boisson alcoolisée qui est conçue grâce à la fermentation de jus de fruits.</p>
+            </div>
+
+            <div id="aut1">
+                <h3>L'Autriche</h3>
+                <p>Le Stroh : est un alcool à base de rhum indigène produit à base de cannes à sucre.</p>
+            </div>
+
+            <div id="sl1">
+                <h3>La Slovénie</h3>
+                <p>Le Cvicek : est un vin composé de différentes variétés de raisins.</p>
+            </div>
+
+            <div id="crt1">
+                <h3>La Croatie</h3>
+                <p>Le Marasquin : est une boisson obtenue par la distillation de marasques ou encore par la macération de cerises dans l'alcool agricole.</p>
+            </div>
+
+            <div id="gre1">
+                <h3>La Grèce</h3>
+                <p>Le vin : est le plus ancien alcool grec. Selon la mythologie grecque  le vin a commencé en Grèce lorsque Dionysos  fils de Zeus mi-homme et demi-dieu  a vécu dans les montagnes et a appris le processus de fabrication du vin.</p>
+            </div>
+
+            <div id="itl1">
+                <h3>L'Italie</h3>
+                <p>Le Prosecco : est une boisson alcoolisée considérée comme le meilleur vin pétillant d'europe</p>
+            </div>
+
+            <div id="frc1">
+                <h3>La France</h3>
+                <p>Le vin : est LA boisson alcoolisée consommée par les Français, il est possible de retrouver le Bordeau par exemple.</p>
+            </div>
+
+            <div id="blg1">
+                <h3>La Belgique</h3>
+                <p>le Zizi Coin Coin : est un alcool réalisé à base de jus de citron et de Cointreau</p>
+            </div>
+
+            <div id="lxb1">
+                <h3>Le Luxembourg</h3>
+                <p>Le Buff : est une liqueur qui est une spécialité régionale au Luxembourg , il est souvent consomé comme appéritif</p>
+            </div>
+
+            <div id="all1">
+                <h3>L'Allemagne</h3>
+                <p>Le Schnaps : est une eau-de-vie transparente composée d'éléments végétals tels que des racines ou des fruits.</p>
+            </div>
+
+            <div id="pyb1">
+                <h3>Les Pays-Bas</h3>
+                <p>La Genièvre : les Hollandais boivent beaucoup de genièvre (jenever), une liqueur de céréales aromatisée aux baies de genévrier (baie violette). Il s'apparente à du gin et se déguste dans un petit verre ou en cocktail. Les locaux la commandent avec une bière.</p>
+            </div>
+
+            <div id="dmk1">
+                <h3>Le Danmark</h3>
+                <p>Le Danzka: la célèbre Danzka est considéré comme la meilleure vodka danoise</p>
+            </div>
+
+            <div id="esp1">
+                <h3>L'Espagne</h3>
+                <p>La Sandria : est un cocktail réputé espagnole à base de vin et de fruits princiapelent d'agrumes. </p>
+            </div>
+
+            <div id="pgl1">
+                <h3>Le Portugual</h3>
+                <p>Le porto : est un vin fortifié avec de l'eau de vie ou du brand</p>
+            </div>
+
+            <div id="irl1">
+                <h3>L'Irlande</h3>
+                <p>Le Whisky : le whisky est LA boisson consommée en Irlande, à l'image du Kilbeggan, Jameson, et le Paddy,...</p>
+            </div>
+
+            <div id="mlt1">
+                <h3>Malte</h3>
+                <p>La Madlien : est une liqueure locale particulièrement consommée par les maltais, à base d’herbes aromatiques</p>
+            </div>
+
+            <div id="chp1">
+                <h3>Chypre</h3>
+                <p>Le brandy sour : le coktail national  fait avec du brandy chypriote, plus doux que le cognac ou l'armagnac, du citron (frais ou écrasé), de l’angostura (ou angostura aromatique amère), de l'eau gazeuse (ou de la limonade) et de la glace</p>
+            </div>
+
+            <div id="run1">
+                <h3>La Réunion</h3>
+                <p>La dodo : C'est une bière réunionaise appréciée par ses consommateurs/consommatrices créer à la Réunion en hômage de à l'animal dodo disparu.</p>
+            </div>
+
+            <div id="mtn1">
+                <h3>Martinique</h3>
+                <p>Le rhum La Many : C'est un rhum agricol produit par des méthodes ancestrales utilisant le jus de canne de l'île.</p>
+            </div>
+
+            <div id="gyn1">
+                <h3>Guyane française</h3>
+                <p>Rhum : La Guyanne est connu pour son rhum atteignant les 55°</p>
+            </div>
+
+            <div id="gdl1">
+                <h3>Guadeloupe</h3>
+                <p>Le pti Punch : Cocktail traditionnelle à base de sucre de canne cuit, de citron vert, et de rhum blanc est un symbole en Guadeloupe.</p>
+            </div>
+
+            <div id="myt1">
+                <h3>Mayotte</h3>
+                <p>Hipo 101 : Une bière brassée localement avec du malt d’orge et du houblon de Belgique</p>
+            </div>
+
+        </map>
+
+    <footer>
+        <div class="footer">
+            <img id="imageBas1" src="../image/bas_gauche.png" alt="Dessin représentant une bouteille d'alcool et deux verres personnifiée">
+            <div class="couronne">
+                <img class="imageBas" src="../image/bas_milieu.png" alt="Motif ornemental">
+                <p class="contenuFooter">"L'abus d'alcool est dangereux pour la santé, à boire avec modération"</p>
+                <p class="annexes1"><a class="annexes" href="source.html" title="Besoin de coordonnées ou des sources utilisées ?">Annexes</a></p>
+                <p class="contenuFooter1">@Université de la Réunion, 2020.</p>
+            </div>
+            <img id="imageBas2" src="../image/haut_droit.png" alt="Dessin représentant une bouteille d'alcool et deux verres personnifiée">
+        </div>
+    </footer>
+
+</body>
+
+</html>

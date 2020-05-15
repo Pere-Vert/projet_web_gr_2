@@ -1,0 +1,1208 @@
+html{
+	font-size: 120%
+}
+
+
+body {
+    background-size: cover;
+    background-image: url(../image/couleur_fond.jpg);
+    background-attachment: fixed;
+    font-family : cursive,"Helvetica Neue", Verdana, sans-serif ;
+    margin: 0px;  
+    }
+
+h1{
+	color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px steelblue, 0 0 5px khaki;
+    margin-bottom: 0px;
+    margin-top: 0px; 
+}
+
+
+aside {
+	height:700px;
+	right: 0;
+	border-radius: 5px;
+	width: 337px;
+	margin-left: 60px;
+}
+
+/*Animation présent dans le <aside>*/
+.animation{
+	width: 337px;
+	height: 520px;
+	background-image: url("../image/diapo5.jpg");
+	background-repeat: no-repeat;
+	
+	animation-name: animation1;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-direction: normal;
+
+	webkit-animation-name: animation1;
+	webkit-animation-duration: 15s;
+	webkit-animation-iteration-count: infinite;
+	webkit-animation-timing-function: linear;
+	webkit-animation-direction: normal;
+
+	moz-animation-name: animation1;
+	moz-animation-duration: 15s;
+	moz-animation-iteration-count: infinite;
+	moz-animation-timing-function: linear;
+	moz-animation-direction: normal;
+}
+
+@-webkit-keyframes animation1{
+	0%{background-image: url("../image/diapo5.jpg");}
+	12%{background-image: url("../image/diapo5.jpg");}
+	24%{background-image: url("../image/diapo1.jpg");}
+	30%{background-image: url("../image/diapo1.jpg");}
+	48%{background-image: url("../image/diapo2.jpg");}
+	60%{background-image: url("../image/diapo2.jpg");}
+	72%{background-image: url("../image/accueil2.jpg");}
+	84%{background-image: url("../image/accueil2.jpg");}
+}
+
+@-moz-keyframes animation1{
+	0%{background-image: url("../image/diapo5.jpg");}
+	12%{background-image: url("../image/diapo5.jpg");}
+	24%{background-image: url("../image/diapo1.jpg");}
+	30%{background-image: url("../image/diapo1.jpg");}
+	48%{background-image: url("../image/diapo2.jpg");}
+	60%{background-image: url("../image/diapo2.jpg");}
+	72%{background-image: url("../image/accueil2.jpg");}
+	84%{background-image: url("../image/accueil2.jpg");}
+}
+
+@keyframes animation1{
+	0%{background-image: url("../image/diapo5.jpg");}
+	12%{background-image: url("../image/diapo5.jpg");}
+	24%{background-image: url("../image/diapo1.jpg");}
+	30%{background-image: url("../image/diapo1.jpg");}
+	48%{background-image: url("../image/diapo2.jpg");}
+	60%{background-image: url("../image/diapo2.jpg");}
+	72%{background-image: url("../image/accueil2.jpg");}
+	84%{background-image: url("../image/accueil2.jpg");}
+}
+
+/*Régalges pour le lien vers le simulateur*/
+aside p a{
+	text-decoration: none;
+	color: lightgreen;
+}
+
+aside p a:hover{
+	color: peru;
+}
+
+/*Réglage de l'en-tête :*/
+header{
+	width: 100%;
+}
+
+.couronne {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    max-height: 100%;
+
+}
+
+.header{
+	justify-content: center;
+	display: flex;
+	height: 15rem;
+}
+
+.imageHaut1{
+	width: 57%;
+	margin-left: 20%;
+	height: 70px;
+}
+
+#titreHaut1{
+	width: 57%;
+	margin-left: 20%;
+}
+
+#imageHaut3{
+	width: 16%
+}
+
+#imageHaut4{
+	width: 16%;
+}
+
+/*Réglage du bas de page :*/
+footer{
+	width: 100%;
+}
+
+
+.footer{
+	display: flex;
+	height: 15rem;
+	justify-content: center;
+}
+
+.imageBas{
+	width: 57%;
+	margin-left: 20%;
+	height: 70px;
+}
+
+#imageBas1{
+	width: 16%;
+}
+
+#imageBas2{
+	width: 16%;
+}
+
+.contenuFooter{
+	font-style: italic;
+	color: black;
+	font-family : cursive,"Helvetica Neue", Verdana, sans-serif ;
+	text-align: center;
+}
+
+.contenuFooter1{
+	color: white;
+	font-family : cursive,"Helvetica Neue", Verdana, sans-serif ;
+	text-align: center;
+}
+
+/*Réglage du menu déroulant :*/
+
+#noSticky{
+
+	position: relative;
+}
+
+nav{
+	position: relative;
+	width: 100%;
+}
+
+ul{
+	list-style: none; /*permet d'enlever les points qui montrent que c'est une liste.*/
+}
+
+
+nav ul{
+	
+	margin: 0px;/*permet d'enlever les marges autour des éléments de la liste.*/
+	padding: 0px;
+	
+}
+
+nav>ul{
+	display:flex;
+	text-align: center;
+}
+
+nav ul li{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 47.5px;
+	background-image: url(../image/bois9.jpg);
+	line-height: 47.5px;
+	text-align: center;
+}
+
+
+
+nav a{
+	text-decoration: none;
+	color: tan;
+}
+
+
+nav ul li a{
+	display:block;
+	height: 47.5px;
+}
+
+nav ul li a:hover{
+	background-color: chocolate;
+	opacity: 0.95;
+
+}
+
+nav>ul>li ul {
+	display: none;
+}
+
+nav>ul li:hover ul{
+	display: block;
+}
+
+nav ul li ul li{
+	line-height: 45px;
+}
+
+/*Paramètres de la section :*/
+section{
+	display: flex;
+	text-align: justify;
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+	color: darkgray;
+}
+
+h2{
+	text-align: left;
+	color: royalblue;
+	border-left: 6px solid royalblue;
+    background-color: lightgrey;
+    width: 65%;
+    margin-left: 30px;
+    margin-bottom: 0px;
+
+}
+
+h3{
+	color: black;
+}
+
+.bloc1, .bloc2{
+	display: flex;
+}
+.text{
+	width: 65%;
+	margin-left: 30px;
+}
+
+.bord{
+	border-left: 0.5px solid chocolate;
+}
+
+
+.fleche>a:after{
+	content: "▼";
+	font-size:12px;
+	color: white;
+	margin-left: 0.5rem;
+}
+
+
+
+
+.menu{
+	display: flex;
+	position: sticky;
+	top: 0;
+}
+
+.citation{
+	font-style: italic;
+	color: peru;
+}
+
+/*Réglage rubrique Grossesse :*/
+.nextToImg{
+	display: flex;
+}
+
+.image{
+	margin-top:4rem;
+	margin-left: 1rem;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 5px 5px aliceblue;
+	flex-wrap: wrap-reverse;
+}
+
+.imgGross2{
+	width: 25%;
+	height: auto;
+	border-radius: 50%;
+	margin-right: 1rem;
+	box-shadow: 0px 0px 5px 5px aliceblue;
+}
+
+#div2{
+	margin-top: 3rem;
+	margin-right: 1rem;
+}
+
+#paragraphe2{
+	margin-top: 2.5rem;
+}
+
+
+/*Réglage rubrique Addiction*/
+.nextToImg1{
+	display: flex;
+	}
+
+.nextToImg2{
+	display: flex;
+	margin-top: 0px;
+	}
+
+
+
+.imageAddiction1{
+	margin-left: 1.5rem;
+	width: 330px;
+	border-radius: 30%;
+	box-shadow: 0px 0px 5px 5px aliceblue;
+	flex-wrap: wrap-reverse;
+}
+
+.imageAddiction2{
+	margin: 1rem;
+	width: 330px;
+	border-radius: 30%;
+	box-shadow: 0px 0px 5px 5px aliceblue;
+	flex-wrap: wrap-reverse;
+}
+
+#sousDivAddiction{
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+
+#paragrapheAddiction{
+	margin-left: 2rem;
+}
+
+#soustitre2Addiction{
+	margin-top: 50px;
+    margin-left: 405px;
+    margin-bottom: 0px;
+}
+
+
+/*Réglage rubrique Fertilité*/
+#Fertilite{
+	display: flex;
+	flex: 3 1 1;
+	flex-wrap:wrap;
+}
+
+.Fertilite1{
+	flex: 1 1 0;
+	margin-right: 15px;
+}
+
+.Fertilite2{
+	flex: 1 1 0;
+	margin-left: 15px;
+}
+
+#imageFertilite {
+	height:auto;
+	border-style: outset;
+
+	width: 100%;
+}
+
+#p_img{
+	width: 100%;
+}
+
+#paragrapheFertilite1{
+	margin-top: 2.9rem;
+}
+
+/*Réglage rubrique Un Moyen de Fuir*/
+#imageFuire{ 
+	float: left;
+	width: 400px;
+	margin-top: 0.8rem;
+	height: 15rem;
+}
+
+.imageFuire1{
+	height: 13rem;
+	border-style: inset;
+	margin: 8px;
+	float: left;
+}
+
+/*Réglage rubrique Consommation Régulière*/
+.NextToImg3{
+	display: flex;
+}
+
+.consoReguliere{
+	margin: 1rem;
+	width: 30%;
+	border-radius: 50%;
+	box-shadow: 0px 0px 5px 5px aliceblue;
+	flex-wrap: wrap-reverse;
+}
+
+#divconsoRegumiere{
+	margin-top: 2.5rem;
+	margin-right: 4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Réglage rubrique Un Effet de Mode*/
+.nextToImgUnEffetDeMode{
+	display: flex;
+}
+
+.imageUnEffetDeMode{
+	width: 30%;
+	box-shadow: 0px 0px 5px 5px aliceblue;
+	border-style: double;
+	margin-bottom: 1.5rem;
+	margin-top: 1.5rem;
+	margin-left: 2rem;
+}
+
+#imageUnEffetDeMode1{
+	display: flex; 
+}
+
+.imageUnEffetDeMode1{
+	width: 40%;
+	box-shadow: 0px 0px 5px 5px aliceblue;
+	border-style: double;
+	margin-bottom: 1.5rem;
+	margin-top: 1.5rem;
+	}
+
+#imageUnEffetDeMode1>p{
+	margin-left: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Réglage rubrique La Conduite*/
+#containImgConduite {
+	float: left;
+	width: 300px;
+	margin-top: 0.3rem;
+	height: 156px;
+}
+
+.imageConduire {
+	height: 7.5rem;
+	border-style: inset;
+	border-color: burlywood;
+}
+
+/*Paramètre de style pour le tableau de la partie Conduite*/
+table, th, td {
+	border: 1px solid bisque;
+	box-shadow: 0px 0px 5px aliceblue;
+}
+
+th {
+	color: dodgerblue;
+	text-align: center;
+}
+
+
+/*Réglage rubrique L'Ivresse*/
+#divIvresse{
+	display: flex;
+	margin-top: 3rem;
+	margin-right: 1rem;
+}
+
+#div2Ivresse{
+	display: flex;
+	flex-direction: row-reverse;
+	margin-top: 3rem;
+	margin-right: 1rem;
+}
+
+
+#imageIvresse {
+	margin: 1rem;
+	width: 25%;
+	border-radius: 30%;
+	box-shadow: 0px 0px 5px 5px aliceblue;
+	flex-wrap: wrap-reverse;
+}
+
+#imageIvresse2 {
+	margin: 1rem;
+	width: 25%;
+	border-radius: 30%;
+	box-shadow: 0px 0px 5px 5px aliceblue;
+	flex-wrap: wrap-reverse;
+}
+
+
+
+
+
+
+
+
+
+
+/*Réglage rubrique Les Bars*/
+#imageLesBars{
+	width: 100%;
+
+	border-style: outset;
+	
+	box-shadow: 0px 0px 5px 5px cornflowerblue;
+}
+#lesBars>p {
+	column-count: 2;
+	column-gap: 42px;
+	column-rule: 1px dashed aliceblue;
+}
+
+
+
+/*Réglage rubrique La Commercialisation*/
+.nextToImgCommercialisation{
+	display: flex;
+
+}
+.imageCommercialisation {
+	margin: 1rem;
+	width: 30%;
+	border-radius: 50%;
+	box-shadow: 0px 0px 5px 5px aliceblue;
+	flex-wrap: wrap-reverse;
+}
+
+
+
+/*Réglage rubrique Les Ventes*/
+.nextToImgVente{
+	display: flex;
+}
+
+.imageVente{
+	margin: 1rem;
+	width: 30%;
+	border-radius: 50%;
+	box-shadow: 0px 0px 5px 5px aliceblue;
+	
+}
+
+#divVente{
+	margin-top: 3rem;
+	margin-right: 1rem;
+}
+
+#paragrapheVente, #soustitre2Vente{
+	margin-left: 2rem;
+}
+
+.nextToImgVente1{
+	display: flex;
+}
+
+.imageVente1{
+	margin: 1rem;
+	width: 30%;
+	border-radius: 50%;
+	box-shadow: 0px 0px 5px 5px aliceblue;
+	flex-wrap: wrap-reverse;
+}
+
+#divVente1{
+	margin-top: 3rem;
+	margin-right: 1rem;
+}
+
+#paragrapheVente1, #soustitre2Vente1{
+	margin-left: 2rem;
+}
+
+.nextToImgVente2{
+	display: flex;
+}
+
+.imageVente2{
+	margin: 1rem;
+	width: 30%;
+	border-radius: 50%;
+	box-shadow: 0px 0px 5px 5px AliceBlue;
+	flex-wrap: wrap-reverse;
+}
+
+#divVente2{
+	margin-top: 3rem;
+	margin-right: 1rem;
+}
+
+#paragrapheVente2, #soustitre2Vente2{
+	margin-left: 2rem;
+}
+
+#imageVenteJeunesse{ 
+	float: left;
+	width: 260px;
+	margin-top: 1rem;
+	height: 8rem;
+}
+
+.imageVenteJeunesse{
+	height: 8rem;
+	border-style: inset;
+	border-color: BurlyWood;
+	border-radius: 50%;
+}
+
+#titreVente{
+	margin-top: 2.7rem;
+}
+
+.source{
+	text-decoration: none;
+	color: white;
+}
+.annexes{
+	text-decoration: none;
+	color: white;
+}
+.annexes:hover{
+	color: peru;
+}
+.annexes1{
+	text-align: center;
+}
+
+.source:hover{
+	color: peru;
+}
+
+#sd1, #fld1, #est1, #let1, #lit1, #pol1,
+#slo1, #tch1, #hng1, #rou1, #bul1, #aut1,#gdl1,
+#sl1, #crt1, #gre, #itl, #frc1, #blg1, #lxb1, #all1,
+#pyb1, #dmk1, #esp1, #pgl1, #irl1, #mlt1, #chp1, #run1,
+#mtn1, #gyn1, #gre1, #gdl, #itl1, #myt1, #fondCarte {
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+}
+
+#carte{
+	width: 1200px;
+}
+
+
+
+
+/*Partie responsive disign: qui permet au contenu de s'adapter à une taille d'écran inférieur à 1028px*/
+@media (max-width: 1028px){
+
+	h1{
+    	margin-bottom: 0px;
+    	margin-top: 0px; 
+    	text-align: center;
+    	font-size: 1rem;
+	}
+
+	.menu{
+		width: 100%;
+		position: relative;
+		
+	}
+
+	nav{
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		display: inline-block;
+		position: relative;
+	}
+
+	nav>ul{
+		display: block;
+	}
+
+	nav>ul>li>a{
+		display: inline-block;
+		width: 100%;
+	} 
+
+	nav>ul li:hover ul{
+	display: block;
+	position:relative;
+	display: inline-block;
+	}
+
+
+	nav>ul>li ul{
+		display: none;
+		position: absolute;	
+		margin-left: 0px;
+		width: 100%;	
+	}
+
+	.bord{
+		border-left: none;
+		border-right: none;
+	}
+
+	/*La section occupera 100% de la page*/
+	section{
+		display: block;
+		width: 100%;
+		margin-left:0;
+		margin-right: 0;
+		}
+
+
+	aside{
+	    left: 0;
+	    bottom: 0;
+	    width: 90%;
+	    max-height: 600px;
+	    margin-left: 5%;
+	    margin-right: 5%;
+	}
+
+	/*La div de classe text occupera 90% de sa section*/
+	.text{
+		width: 90%;	
+		margin-right: 5%;
+		margin-left: 5%;
+	}
+
+
+	.image, .imageAddiction1{
+		width: 100%;
+		border-radius: 0px;
+		margin: 0rem;
+		height: auto;
+	}
+
+	 .imgGross2{
+		width: 100%;
+		border-radius: 0px;
+		margin: 0rem;
+	}
+
+	.nextToImg{
+		display: block;
+	}
+
+	#div2{
+		display: flex;
+		flex-direction: column-reverse;
+		margin: 0px;
+	}
+
+	#paragraphe2{
+		margin-top: 30px;
+	}
+
+	#imageFuire, #imageFuire.p, #imgFuire {
+		width: 100%;
+	}
+
+	.Fertilite1, .Fertilite2{
+		flex: auto;
+		margin: 0px;
+	}
+
+	#imageFertilite{
+		width: 100%;
+		height: auto;
+		margin: 0px;	}
+
+	.nextToImg1 {
+    	display: flex;
+    	flex-direction: column-reverse;
+    }
+
+    .nextToImg2{
+    	display: flex;
+    	flex-direction: column;
+    }
+
+    .imageAddiction2{
+    	order: 2;
+    	width: 100%;
+    	margin: 0rem;
+    	border-radius: 0px;
+    }
+
+    #sousDivAddiction{
+    	display: flex;
+    	flex-direction: column;
+    }
+
+    #marginTop{
+    	margin-top: 15px;
+    }
+	
+	#soustitre2Addiction{
+		margin-left: 0px;
+		margin-bottom: 20px;
+		order: 1;
+	}
+
+	#divAddiction{
+		margin-right: 0px;
+	}
+
+	#paragrapheAddiction{
+		margin-left: 0px;
+		order: 3;
+	}
+
+	.bloc1{
+		display: flex;
+		flex-direction: column;
+	}
+
+
+	.NextToImg3{
+		display: flex;
+		flex-direction: column;
+
+	}
+
+	.consoReguliere {
+		text-align: center;
+	    margin-left: 30%;
+	    width: 40%;
+	    border-radius: 0px 50px;
+	    box-shadow: 0px 0px 5px 5px aliceblue;
+	    flex-wrap: wrap-reverse;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*Responsive design 'unEffetDeMode.html'*/
+
+	.nextToImgUnEffetDeMode{
+		flex-direction: column-reverse;
+	}
+	.imageUnEffetDeMode{
+		width: 100%;
+		margin: 0px;
+	}
+	#imageUnEffetDeMode1{
+		flex-direction: column;
+	}
+	.imageUnEffetDeMode1{
+		width: 100%;
+		margin: 0px;
+	}
+	#imageUnEffetDeMode1>p{
+		margin-left: 0px;
+	}
+
+
+
+
+
+
+
+
+
+
+	/*Responsive design 'conduite.html'*/
+
+	#responsive{
+		display: flex;
+		flex-direction: column;	
+	}
+
+	#containImgConduite {
+    	margin: 0px;
+    	width: 99%;
+    	height: auto;
+	}
+
+	.imageConduire{
+		height:auto;
+		width:100%;
+	}
+
+
+
+
+
+
+
+
+	/*Responsive design 'unMoyenDeFuire.html'*/
+
+	#divResponsive{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.imageFuire1{
+		width: 100%;
+		height:auto;
+		margin: 0px;
+	}
+
+	#imageFuire{
+		height: auto;
+	}
+
+
+
+
+
+
+
+
+
+
+	/*Responsive design 'ivressePublique.html*/
+
+	#imageIvresse {
+		float: left;
+		width: 50%;
+		max-height: 210px;
+		margin-right: 10px;
+	}
+
+
+	#imageIvresse2 {
+		width: 30%;
+		height: auto;
+	}
+
+	#paragrapheIvresse, #paragrapheIvresse1{
+		margin: 0px;
+	}
+
+	
+	#div2Ivresse{
+		margin-top: 50px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	#divIvresse{
+		display: block;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*Responsive design 'lesBars.html*/
+
+	#imageLesBars{
+		width: 99%;
+	}
+
+	#lesBars>p {
+	column-count: 1;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	.imageCommercialisation {
+		
+		width: 100%;
+		margin: 0%;
+		border-radius: 0%;
+		box-shadow: 0px 0px 5px 5px AliceBlue;	
+	}
+
+	.nextToImgCommercialisation {
+		display: flex;
+		flex-direction: column;
+	}
+
+	#paragrapheCommercialisation{
+		order: -1;
+	}
+
+	h2{
+		width: 88%;
+	    margin-left: 5%;
+	    margin-right: 5%;
+
+	}
+
+	#divVente{
+	margin-top: 3rem;
+	margin-right: 0px;
+	display: flex;
+	flex-direction: column;
+	}
+
+	#paragrapheVente{
+		margin: 0px;
+	}
+
+	.imageVente{
+		width: 100%;
+		height: auto;
+		margin: 0px;
+	}
+
+
+	.imageVente1, .imageVente2 {
+    width: 30%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 5px aliceblue;
+    margin-left: 35%;
+	}
+
+
+	.nextToImgVente1, .nextToImgVente2 {
+    display: flex;
+    flex-direction: column;
+	}
+
+	#soustitre2Vente{
+		margin-left: 0px;
+	}
+
+	.imageVenteJeunesse {
+	    height: auto;
+	    width: 80%;
+	    border-style: inset;
+	    margin-left: 9%;
+	    border-color: BurlyWood;
+	    border-radius: 50%;
+	}
+
+	.animation{
+		width: auto;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	.couronne {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 90px;
+  
+    max-height: 80%;
+	}
+
+	#imageHaut3 {
+		margin-top: 200px;
+		width: 10%;
+	}
+
+	#imageHaut4{
+		margin-top: 200px;
+		width: 10%;
+	}
+
+	.header {
+	    
+	    display: flex;
+	    height: 15rem;
+	    width: 90%;
+	    margin-right: 5%;
+	    margin-left: 5%;
+	}
+
+	.imageHaut1 {
+	    width: 60%;
+	    max-height: 56px;
+	    margin-left: 20%;
+	}
+
+	#titreHaut1{
+		width: 60%;
+	    max-height: 56px;
+	    margin-left: 20%;
+	}
+
+	#imageBas1, #imageBas2{
+		height: 50%;
+		margin-top: 50%;
+	}
+
+
+
+}
+
+
+
+
+
+
+
